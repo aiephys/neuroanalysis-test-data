@@ -24,3 +24,16 @@ To add new test data:
     git commit test_data
     git push
 
+
+
+Contents
+--------
+
+evoked_spikes/
+    Recordings of spikes evoked under different conditions--vc, cc, cell-attached, etc.
+evoked_spikes/vc_evoked_spikes.npz
+    Single sweep (10 channels) evoking unclamped action potentials in voltage clamp.
+    Axes are (channel, sample, [signal (A), command (V)])
+    These data cover a wide range of qualities and conditions from clear positives and negatives
+    to ambiguous and unusable cases.
+    [source: Campagnola ALM 2016.09.07/1 and 2016.09.16/0]
