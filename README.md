@@ -6,6 +6,12 @@ To download test data for use with an existing neuroanalysis clone:
     git submodule init test_data
     git submodule update test_data
 
+To synchronize test data with the current neuroanalysis commit:
+    (checking out a commit in the main repository does _not_ automatically
+     update the test data repository)
+
+    git submodule update test_data
+
 To add new test data:
 
     # First update the test data repository:
